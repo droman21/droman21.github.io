@@ -67,6 +67,7 @@ section ul {
 }
 #projects article img {
     width: 100%;
+    background: #ccc;
     border: 1px solid #333;
 }
 footer {
