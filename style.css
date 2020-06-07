@@ -59,6 +59,15 @@ section ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
+    grid-column-gap: 1em;
+}
+#projects article {
+    background: #ccc;
+    padding: 1em;
+}
+#projects article img {
+    width: 100%;
+    border: 1px solid #333;
 }
 footer {
     margin-top: 2em;
