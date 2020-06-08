@@ -28,6 +28,7 @@ header span {
 }
 #aboutMe img {
     float: left;
+    border: 1px solid #333
 }
 nav {
     position: fixed;
