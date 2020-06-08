@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     line-height: 1.618em;
     box-sizing: border-box;
     margin: 0;
@@ -25,6 +25,9 @@ header h1 {
 header span {
     font-size: 1.5em;
     color: #999
+}
+#aboutMe img {
+    float: left;
 }
 nav {
     position: fixed;
@@ -70,6 +73,9 @@ section ul {
     width: 100%;
     background: #ccc;
     border: 1px solid #333;
+}
+#projects img:hover {
+    border: 3px olivedrab;
 }
 footer {
     margin-top: 2em;
