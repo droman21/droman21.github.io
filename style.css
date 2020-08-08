@@ -28,7 +28,8 @@ header span {
 }
 #aboutMe img {
     float: left;
-    border: 1px solid #333
+    border: 1px solid #333;
+    border-radius: 50%;
 }
 nav {
     position: fixed;
@@ -86,4 +87,8 @@ footer {
     color: #fff;
     padding: 1em 0;
     text-align: center;
+}
+.homepageHTML{
+    background: url(https://images.squarespace-cdn.com/content/v1/561e7ea4e4b0745b47b51cb7/1538318258423-O43ZWWA73N6VMH10SKMB/ke17ZwdGBToddI8pDm48kLhvZQHDG0IThXReXAuNknUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dtxSRv7WFkiHyruGHE_i82c0apMkQk9TjZ0J-rcYTPBtZtJ3qR9G2BYeA0wOAaeYNg/BackgroundImage-Cleveland-LSS.jpg?format=2500w) no-repeat center center fixed; 
+    background-size: cover;
 }
