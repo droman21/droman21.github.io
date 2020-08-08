@@ -1,5 +1,6 @@
 main{
-	background: #0277BD;
+    background: #0277BD;
+    background-size: auto;
 	color: white;
 }
 .icons-social a{
