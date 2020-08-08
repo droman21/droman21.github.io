@@ -75,10 +75,11 @@ section ul {
     background: #ccc;
     border: 1px solid #333;
 }
-#projects img:hover {
-    border: 3px olivedrab;
+#projects article img:hover {
+    border: 8px olivedrab;
 }
 footer {
+    bottom: 5;
     margin-top: 2em;
     margin-bottom: 1em;
     background: #666;
@@ -86,4 +87,3 @@ footer {
     padding: 1em 0;
     text-align: center;
 }
-
