@@ -1,72 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Roman's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
-</head>
-<header>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</header>
+	<title>Daniel Roman | Software Developer</title>
+
+	<link rel="icon" href="favicon.ico" type="image/png" />
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css//theme.css">
+</head>
 <body>
-    <a name="top"></a>
-    <header>
-        <nav>
-            <a href="#top">Home</a>
-            <a href="#aboutMe">About Me</a>
-            <a href="#myProjects">My Projects</a>
-            <a href="#getInTouch">Get in Touch</a>
-        </nav>
-    <h1>Daniel Roman's Portfolio</h1>
-    <span>My Business is Code</span>
-    </header>
-    <main>
-        <section id="aboutMe">
-            <h2>About Me</h2>
-                <img src="./images/headshot.png" alt="Daniel Roman" style="width:170px;height:215px;margin-right:15px;">
-                <p>Talented digital marketing specialist with more than five years’ experience in fast-paced, diverse business environments including consulting and healthcare. Recognized for being both a strategist and a doer. Committed to driving business growth, including exceeding goals for patient acquisition in my former healthcare role as well as multiplying client billings in my former consulting role, for major names such as U.S. Cellular, Huntington National Bank, DirectEnergy and others. Cited for having an unusually strong commitment to customer service and a strong ability to solve problems creatively. Currently seeking an opportunity to be of significant value to the right organization, expand my knowledge and experience base, and allow for greater professional growth in software development. Willing to relocate.</p>
-            <p>Profile Links:</p>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/daniel-roman-9168053b" target="_blank"> LinkedIn Profile</a></li>
-                <li><a href="https://github.com/droman21" target="_blank">GitHub Profile</a></li>
-            </ul>
-        </section>
-        <section id="myProjects">
-            <h2>My Projects</h2>
-            <p>Lucas ipsum dolor sit amet hutt lando twi'lek maul hutt ackbar han luke organa kashyyyk. Calamari dooku moff darth antilles. Antilles solo grievous luke calamari mon. Skywalker sidious moff baba cade jango. </p>
-            <div id="projects">
-                <article>
-                    <h3>Virtual Pet Shelter</h3>
-                    <a href="https://www.github.com" target="_blank">
-                    <img src="./images/pet_icon.png"></a>
-                    <p>Skills/technology used: C#</p>
-                </article>
-                <article>
-                    <h3>Portfolio Web Page</h3>
-                    <a href="https://www.droman21.github.io" target="_blank">
-                    <img src="./images/portfolio_icon.jpg"></a>
-                    <p>Skills/technology used: HTML and CSS.</p>
-                </article>
-                <article>
-                    <h3>Project 3</h3>
-                    <a href="https://www.github.com" target="_blank">
-                    <img src="./images/csharp_icon.png"></a>
-                    <p>Skills/technology used: XXXXX</p>
-                </article>
+	<main>
+		<div class="intro">Hi there, I'm Dan Roman.</div>
+		<div class="tagline">Passionate Developer | Full-Stack | Agile & Scrum | TDD </div>
+		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
+		<div class="icons-social">
+			<a target="_blank" href="https://github.com/droman21" target="_blank"><i class="fab fa-github"></i></a>
+			<a target="_blank" href="https://www.linkedin.com/in/droman21" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a target="_blank" href="https://stackoverflow.com/users/13971041/droman21" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+            <a target="_blank" href="https://sway.office.com/vKVqIviwQ2FOGIkX" target="_blank"><i class="far fa-address-card"></i></a>
+            <a target="_blank" href="" target="_blank"><i class=""></i></a>
+            <br><br>
+            <section id="myProjects">
+                <h2>Projects</h2>
+                <div id="projects">
+                    <article class="project1">
+                        <a href="https://github.com/droman21/virtual-pet-droman21" target="_blank" style="text-decoration:none;"><h4>C#</h4><h4>Virtual Pet Shelter</h4></a>
+                    </article>
+                    <article class="project2">
+                        <a href="https://github.com/droman21/donut_multiplier_game" target="_blank" style="text-decoration:none;"><h4>HTML // CSS</h4><h4>Donut Multiplier Game</h4></a>
+                    </article>
+                    <article class="project3">
+                        <a href="https://github.com/droman21/rope_final_project" target="_blank" style="text-decoration:none;"><h4>C# // JAVASCRIPT <br><br>R.O.P.E. App</h4></a>
+                    </article>
                 </div>
-        </section>
-        <section id="getInTouch">
-            <h2>Get in Touch</h2>
-            <p>Contact me using any of the following:</p>
-            <ul>
-                <li>Phone: (419) 304-5684</li>
-                <li>Email: <a href="mailto:dan.roman21@gmail.com">dan.roman21@gmail.com</a></li>
-            </ul>
             </section>
+            <br>
+            <!-- <div class ="contactForm">
+            <h2>Get in Touch</h2>
+            <form
+            action="https://formspree.io/mwkrzevv"
+            method="POST">
+            <label>
+                Your name:
+                <br><input type="text" name="name">
+            </label>
+            <br><br>
+            <label>
+              Your email:
+              <br><input type="text" name="_replyto">
+            </label>
+            <br><br>
+            <label>
+              Your message:
+              <br><textarea name="message"></textarea>
+            </label>
+            <br><br>
+            <button class="Sendbtn" type="submit">Send</button>
+          </form>
+        </div> -->
     </main>
-    <footer>
-        &copy; <script>document.write( new Date().getFullYear() );</script> Daniel Roman's Portfolio 
-    </footer>
+    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
 </body>
 </html>
