@@ -97,6 +97,9 @@ main > .tagline{
 
 .project1:hover{
     transform: scale(1.2);
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
 }
 
 .project2{
@@ -112,6 +115,9 @@ main > .tagline{
 
 .project2:hover{
     transform: scale(1.2);
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
 }
 
 .project3{
@@ -127,6 +133,9 @@ main > .tagline{
 
 .project3:hover{
     transform: scale(1.2);
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
 }
 
 
